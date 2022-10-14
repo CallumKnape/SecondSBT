@@ -9,6 +9,8 @@ lazy val root = (project in file("."))
 
 libraryDependencies += "org.scala-sbt" %% "util-control" % "1.7.2"
 libraryDependencies += "com.typesafe.scala-logging" %% "scala-logging" % "3.9.5"
+libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.14" % Test
+libraryDependencies += "org.scalatest" %% "scalatest-flatspec" % "3.2.14" % Test
 //libraryDependencies += "com.typesafe.scala-logging" %% "scala-logging-slf4j" % "2.1.2"
 
 //val scalaLogging = "com.typesafe.scala-logging" %% "scala-logging" % "3.9.5"
