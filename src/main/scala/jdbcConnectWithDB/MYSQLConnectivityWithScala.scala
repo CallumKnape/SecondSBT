@@ -10,7 +10,9 @@ object MYSQLConnectivityWithScala extends App{
   //to get your port number.
   val url = "jdbc:mysql://localhost:3306/MySQL80"
   val username = "root"
-  val password = "StarPlatinum603"
+  val password = "CallumKnape"
+
+
 
 
 }
